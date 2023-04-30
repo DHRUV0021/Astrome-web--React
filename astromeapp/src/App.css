@@ -1,0 +1,65 @@
+
+
+
+
+.back{
+    background-image:url("./ASTROME//img/campaign-creators-pypeCEaJeZY-unsplash.jpg") ;
+   background-size: cover;
+   background-attachment: fixed;
+   position: absolute;
+   top:20%;
+   left:0;
+   z-index: -1; 
+   border: none;
+   width: 100%;
+   height: 70vh;
+   padding-right:0;
+   padding-top: 10%;
+   text-align: center;
+}
+
+.back h2{
+   font-size: 30px;
+   font-weight: 400;
+   color: rgb(40, 215, 249);
+   margin-top: -50px;
+
+}
+
+
+.back h1{
+   font-size: 27px;
+   font-weight: 500;
+   margin-top: 30%;
+   margin-bottom: -10px;
+   text-transform: uppercase;
+   color: rgb(255, 24, 24);
+   font-weight:900;
+   
+}
+
+.back p{
+   font-size: 25px;
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   color: rgb(36, 255, 69);
+   
+}
+.margin{
+   margin-top: 55%;   
+   background-color: rgb(232, 227, 227);
+}
+
+
+
+.load{
+   background-color: rgb(6, 6, 6);
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+.load img{
+ width: 20%;
+ 
+}

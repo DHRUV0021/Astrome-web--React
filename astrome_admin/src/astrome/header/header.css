@@ -1,0 +1,74 @@
+ /* --------------------header css start-------------------- */
+ body{
+    background-color:#a7d7ed;
+}
+.head{
+    padding: 5px;
+    background-color:rgba(125, 136, 152, 0.477);  
+    margin-top: -20px;
+    border-radius: 0px 0px 40px 40px;
+}
+.abc .admin h1{
+    border: none;
+    width: 20%;
+    padding-top: 10px;
+    margin-left: 20px;
+}
+.menu{
+    margin-left:35%;
+    position: absolute;
+    font-size: 20px;
+    margin-top: -65px;
+}
+.menu ul li {
+    display:inline;
+    list-style: none;  
+    word-spacing: 50px;
+    margin-top: 10px;   
+}
+.menu ul li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    margin:0  8px;  
+    padding:7px 0;
+    position: relative;
+    transition: 0.5s;
+    padding: 5px 10px;
+} 
+
+.menu ul li a:hover{
+    color:white;
+    background-color:rgb(78, 88, 98);
+    border-radius: 5px;
+}
+
+.menu ul li a:hover:before{
+   width:100%;
+}
+
+.container  .xyz{
+    display: inline;
+}
+
+.head .btn{
+    background-color: #aedef4;
+    margin-left: 80px;
+    border-radius: 20px;
+    border: 2px solid rgb(13, 29, 53);
+    padding: 5px 10px;
+}
+.head .btn a{
+    text-decoration: none;
+    color: black;
+}
+.head .btn:hover{
+    background-color:rgb(21, 43, 77) ;
+    border: 2px solid #aedef4;
+
+}
+.head .btn:hover a{
+    color:#aedef4;
+}
+ /* --------------------header css ends-------------------- */
+
+

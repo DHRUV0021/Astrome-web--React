@@ -1,0 +1,52 @@
+.contact{
+  background-color:#a7d7ed;
+  padding: 1%;
+  }
+  .table {
+      width: 90%;
+      border-collapse: collapse;
+      text-align: left;
+      margin: 5% 5%;
+      background: #0b4966e0;
+    }
+    
+    .table td,
+    .table th {
+      border: 2px solid rgb(255, 255, 255);
+      padding: 20px;
+      color: aliceblue;
+    }
+   
+    .table tr:hover {
+        background: #0779ae87;
+    }
+    
+    .table th {
+      padding-top: 12px;
+      padding-bottom: 12px;
+      text-align: center;
+      background-color: #0000008d;
+      color: white;
+    }
+    
+    .table button{
+      font-size: 1.1em;
+      margin: 10px ;
+      padding: 0px;
+    }
+    .action{
+      text-align: center;
+    }
+    .action .edit i{
+      padding: 3px;
+      color: black;
+    }
+  
+    .action .view i{
+      padding: 3px;
+      color: rgb(207, 195, 195);
+    }
+    .action .delete i{
+      color: black;
+      padding: 3px;
+    }

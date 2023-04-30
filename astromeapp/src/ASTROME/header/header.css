@@ -1,0 +1,64 @@
+.header {
+    background-color: #ffffff;
+    height: 80px;
+    margin-bottom: -19px;
+}
+
+.header .headname {
+    color: red;
+    margin-top: 0px;
+    /* background-color: #ffffff8c; */
+}
+
+.header .headname img {
+    margin-top: -7px;
+    width: 90px;
+    padding-left: 10px;
+    height: 70px;
+}
+
+.header .mainsection {
+    margin: 0%;
+    width: 100%;
+    margin-top: -50px;
+
+}
+
+.header .mainsection .menu {
+    color: brown;
+    padding-left: 170px;
+    margin-top: 5px;
+}
+
+.menu ul li {
+    display: inline;
+    list-style: none;
+    /* margin-top: 10px;   */
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: rgb(57, 57, 57);
+    margin-left: 60px;
+    padding: 4px 0;
+    position: relative;
+}
+
+.menu ul li a:hover {
+    color: red;
+}
+
+.menu ul li a:before {
+    content: '';
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    height: 1.5px;
+    width: 0%;
+    background: #26576e;
+    transition: all 0.5s ease;
+}
+
+.menu ul li a:hover:before {
+    width: 100%;
+}

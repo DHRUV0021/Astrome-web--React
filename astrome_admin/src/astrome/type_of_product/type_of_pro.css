@@ -1,0 +1,160 @@
+.box6 {
+  color: aliceblue;
+  width: 40%;
+  margin-top: 2%;
+  border: 1px solid rgb(174, 163, 163);
+  padding: 30px 40px 30px 40px;
+  background: linear-gradient(rgb(51, 51, 52), rgb(225, 63, 63));
+}
+
+.form1 {
+  width: 300px;
+}
+
+form label {
+  display: flex;
+  margin-top: 10px;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+form input {
+  width: 300px;
+  padding: 2px;
+  border: none;
+  border: 1px solid rgba(6, 6, 6, 0.45);
+  border-radius: 10px;
+  background-color: rgba(198, 194, 194, 0.194);
+  outline: none;
+  font-size: 18px;
+}
+
+form select {
+  display: block;
+  width: 313px;
+  padding: 7px;
+  border-radius: 5px;
+}
+
+option {
+  font-size: 18px;
+  border: none;
+  border: 1px solid grey;
+}
+
+.button {
+  width: 100px;
+  margin-top: 10%;
+  margin-left: 10px;
+  border-radius: 2px;
+  border: none;
+  background-color: #133256c9;
+  color: white;
+}
+
+.action .view {
+  margin-left: 2%;
+  border-radius: 50px;
+  background-color: rgb(0, 167, 112);
+}
+
+.action .edit {
+  margin-left: 2%;
+  border-radius: 50px;
+  background-color: rgb(13, 71, 245);
+}
+
+.action .delete {
+  margin-left: 2%;
+  border-radius: 50px;
+  background-color: red;
+}
+
+.error{
+  text-transform: uppercase;
+  background-color: black;
+  color: rgb(255, 0, 0);
+  padding: 0 10px;
+}
+
+/* -------------------------type of product data css------------------------ */
+
+
+.type_pro_data {
+  margin-top: 1%;
+}
+
+.table {
+  width: 90%;
+  border-collapse: collapse;
+  text-align: left;
+  margin: 5% 5%;
+  background: #0b4966e0;
+}
+
+.table td,
+.table th {
+  border: 2px solid rgb(255, 255, 255);
+  padding: 2px;
+  text-align: center;
+  color: aliceblue;
+}
+
+
+.table tr:hover {
+  background: #0779ae87;
+}
+
+.table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #0000008d;
+  color: white;
+}
+
+.table img {
+  width: 90px;
+  height: 70px;
+}
+
+.table button {
+  font-size: 1.1em;
+  margin: 10px;
+  padding: 0px;
+}
+
+.action {
+  text-align: center;
+}
+
+.action .edit i {
+  width: 20px;
+  height: 18px;
+}
+
+.action .view i {
+  width: 20px;
+  height: 18px;
+}
+
+.action .delete i {
+  width: 20px;
+  height: 18px;
+}
+
+/* -----------------------T_ view ------------------------ */
+.type_view {
+  margin: 20px;
+  text-align: center;
+}
+
+.type_view img {
+  height: 20em;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 2px #808080;
+}
+
+.type_view h1 {
+  text-transform: capitalize;
+}

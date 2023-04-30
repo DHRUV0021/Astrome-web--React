@@ -1,0 +1,287 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+
+}
+
+.product {
+  margin-top: 1%;
+  background-color: #a7d7ed9e;
+}
+
+.pro {
+  overflow: hidden;
+}
+
+.pro img {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+
+/* ----------------product card load more effact code */
+.pro_content {
+  width: 100%;
+  margin-left: 0px;
+  padding-bottom: 4%;
+  /* margin-top: 50px; */
+  display: flex;
+  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1px;
+  justify-content: space-around;
+}
+
+.load-more-container {
+  width: 320%;
+}
+
+.load-more-container ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.load-more-container ul:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.load-more-container ul li {
+  width: calc(30% - 30px);
+  margin: 40px 30px 0;
+  height: 50vh;
+  float: left;
+  display: flex;
+  border-radius: 2px;
+}
+
+.load-more-container ul li:nth-child(1n + 6) {
+  max-height: 0;
+  opacity: 0;
+  transition: 0.1s ease-in;
+}
+
+.card_product {
+  width: 80%;
+  height: 50vh;
+  margin: 0px;
+  background-color: rgba(0, 0, 0, 0.272);
+  border-radius: 5px;
+  margin-left: 10%;
+  position: relative;
+  max-width: 500px;
+  max-height: 400px;
+  /* box-shadow: 0 60px 70px -6px black; */
+}
+
+.pro_tanks img {
+  width: 88%;
+  height: 28vh;
+  margin: 5px;
+  padding-top: 5px;
+  margin-left: 6%;
+  /* object-fit: cover; */
+}
+
+.pro_ltr h3 {
+  color: rgba(255, 255, 255, 0.868);
+  font-size: 15px;
+  margin: 5px;
+  background-color: #2e3234;
+  width: 100px;
+  padding: 5px 40px;
+  border-radius: .1rem;
+  text-align: center;
+
+}
+
+.pro_ltr h3:hover {
+  color: #f68181;
+}
+
+.pro_ltr {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttonn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttonn .read {
+  width: 100px;
+  /* height: 30px; */
+  /* box-sizing: border-box; */
+  background: none;
+  border: none;
+  padding: 7px;
+  margin: 17px;
+  background-color: rgba(0, 0, 0, 0.454);
+  border-radius: 15px;
+  color: #f6f6f6;
+
+}
+
+.read:hover {
+  background-color: rgba(5, 5, 5, 0.347);
+}
+
+.read:hover:before {
+  content: " ";
+  border-radius: 20px;
+  border: 2px #101010 solid;
+  position: absolute;
+  left: 100px;
+  bottom: 13px;
+  box-sizing: border-box;
+  width: 30px;
+  height: 30px;
+  transition: all 0.7s ease;
+  animation: grow 1s infinite;
+}
+
+@keyframes grow {
+  from {
+    transform: scale(0, 0);
+    opacity: 1;
+  }
+
+  to {
+    transform: scale(1.5, 1.5);
+    opacity: 0;
+  }
+}
+
+.load-more-container .load-more-btn {
+  width: 150px;
+  line-height: 40px;
+  border-radius: 2px;
+  margin: 0 auto;
+  display: block;
+  background: #494747;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 15px;
+  text-align: center;
+}
+
+.load-more-container .load-more-btn:hover {
+  background: #333;
+}
+
+.load-more-container .load-more-btn .loaded {
+  display: none;
+}
+
+.load-more-container #load-more {
+  display: none;
+}
+
+.load-more-container #load-more:checked~ul li:nth-child(1n + 6) {
+  max-height: 999px;
+  opacity: 1;
+  transition: 0.2s ease-in;
+}
+
+.load-more-container #load-more:checked~.load-more-btn .loaded {
+  display: block;
+}
+
+.load-more-container #load-more:checked~.load-more-btn .unloaded {
+  display: none;
+}
+
+/* -------------------------------------------------------------------------------- */
+
+/* details css */
+.all_details {
+  background-color: #8bcdec;
+  height: 100%;
+  margin: 30px;
+  padding: 20px;
+}
+
+.p_details {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+  align-items: center;
+
+}
+
+.p_details .img {
+  width: 35%;
+}
+
+.p_details img {
+  border-radius: 10px;
+  width: 100%;
+
+}
+
+.p_details .text {
+  padding: 20px;
+}
+
+.p_details .text h2 {
+  text-transform: capitalize;
+  margin-bottom: 5px;
+}
+
+.all_p_details p {
+  font-size: 1.5em;
+  margin: 20px;
+  word-wrap: break-word;
+}
+
+.all_p_details p::first-letter {
+  color: red;
+  font-size: 1.2em;
+  text-transform: capitalize;
+}
+
+.all_p_details {
+  background-color: rgba(0, 0, 0, 0.272);
+  padding: 5px;
+  border-radius: 10px;
+  margin: auto 50px;
+}
+
+/* ------------back button---------- */
+
+.show {
+  text-align:center;
+  padding: 20px;
+  margin: 10px 0;
+}
+
+.show_button {
+  background-color: #184153;
+  border-radius: 5px;
+  padding: 5px 10px;
+  text-transform: capitalize;text-align: center;
+  border: 2px;
+  cursor: pointer;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  transition: .5s;
+}
+
+.show_button a {
+  text-decoration: none;
+  color: white;
+  
+}
+
+.show_button:hover {
+  background-color: rgb(255, 0, 0);
+  color: #002333;
+  box-shadow: 1px 2px 9px #000000;
+}

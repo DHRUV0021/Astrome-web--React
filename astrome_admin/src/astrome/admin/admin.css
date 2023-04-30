@@ -1,0 +1,56 @@
+.user {
+  margin-top: 60px;
+}
+
+.abcc {
+  color: rgb(0, 0, 0);
+}
+
+.login {
+  background-color: rgb(33, 33, 33);
+  padding: 50px;
+  width: 20%;
+  height: 40%;
+  border-radius: 5px;
+  border: none;
+  border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+.login .first {
+  background-color: rgba(82, 86, 86, 0.532);
+  margin: 10px;
+  width: 100%;
+  color: white;
+  border-radius: 5px;
+  margin-left: -5%;
+  border: none;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+.login .second {
+  background-color: rgba(82, 86, 86, 0.532);
+  margin: 10px;
+  color: white;
+  width: 100%;
+  border-radius: 5px;
+  margin-left: -5%;
+  border: none;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+.login .btn {
+  background-color: rgb(105, 192, 255);
+  padding: 6px 18px;
+  border-radius: 7px;
+  color: black;
+  width: 80px;
+  font-size: 15px;
+  margin-top: 20px;
+  border: none;
+}
+
+.login .btn:hover {
+  background-color: rgb(20, 140, 220);
+}
